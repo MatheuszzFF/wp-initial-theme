@@ -1,4 +1,6 @@
-*{
-    background: red;
-    background: blue;
-}
+@import "base/variables";
+@import "plugins/bootstrap/grid";
+@import "plugins/slick/slick";
+@import "plugins/slick/slick-theme";
+
+

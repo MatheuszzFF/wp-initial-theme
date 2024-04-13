@@ -24,10 +24,13 @@ const webpackConfig = {
         entry: { 
           "main":  './src/js/main.js',
           "pages/home-page":  './src/js/pages/home-page.js',
+          "libs/slick": "./src/js/libs/slick.min.js",
+          "libs/jquery": "./src/js/libs/jquery.min.js"
+
         },
         output: 
         {
-            filename: '[name].bundle.js',
+            filename: '[name].min.js',
             path: path.resolve(__dirname, 'dist/js'),
         },
         module: {

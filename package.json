@@ -1,5 +1,5 @@
 {
-  "name": "initial-theme",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,6 +17,7 @@
     "concurrently": "^8.2.2",
     "css-loader": "^6.8.1",
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^9.0.0",
     "gulp-webp": "^5.0.0",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
